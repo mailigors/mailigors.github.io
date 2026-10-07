@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img src="app-icon.png" alt="Иконка Warehouse Sort" width="96" height="96" style="border-radius: 22px;">
+
 # Warehouse Sort — поддержка
 
 Если у вас есть вопрос об игре или вы заметили ошибку, напишите:
@@ -14,6 +16,12 @@ layout: default
 - версию Warehouse Sort;
 - номер уровня и описание проблемы;
 - снимок экрана, если он помогает показать ошибку.
+
+## Игра Warehouse Sort
+
+Собирайте заказы, сортируйте товары и отправляйте готовые короба нажатием на карточку «Заказ» с машинкой.
+
+<img src="screenshot.jpg" alt="Warehouse Sort: готовый заказ и карточка отправки с машинкой" width="340" style="max-width: 100%; height: auto; border-radius: 18px;">
 
 ## Как отправить готовый заказ?
 
