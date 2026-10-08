@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'ru' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08111f">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/site-mark.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">К содержанию</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Igor Solovev Apps — главная">
+        <span class="brand-mark" aria-hidden="true">IS</span>
+        <span><strong>Igor Solovev</strong><small>Apps &amp; Games</small></span>
+      </a>
+      <nav aria-label="Основная навигация">
+        <a href="{{ '/#apps' | relative_url }}">Приложения</a>
+        <a href="{{ '/privacy.html' | relative_url }}">Конфиденциальность</a>
+        <a href="mailto:igorsoloviov77@gmail.com">Связаться</a>
+      </nav>
+    </header>
+    <main id="content">{{ content }}</main>
+    <footer class="site-footer">
+      <span>© {{ 'now' | date: '%Y' }} Igor Solovev</span>
+      <a href="mailto:igorsoloviov77@gmail.com">igorsoloviov77@gmail.com</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Приложения
+description: Игры и приложения Игоря Соловьёва для iPhone.
+---
+<section class="intro shell">
+  <p class="eyebrow">INDEPENDENT IOS DEVELOPER</p>
+  <h1>Игры, в которых важен<br><span>каждый ход.</span></h1>
+  <p class="intro-copy">Небольшие, понятные приложения для iPhone — без обязательной регистрации и с вниманием к деталям.</p>
+</section>
+<section class="apps shell" id="apps" aria-labelledby="apps-title">
+  <div class="section-heading"><div><p class="eyebrow">КАТАЛОГ</p><h2 id="apps-title">Приложения</h2></div><p>{{ site.data.apps | size }} проект</p></div>
+  <div class="app-grid">
+    {% for app in site.data.apps %}
+    <a class="app-card" href="{{ app.path | relative_url }}">
+      <img src="{{ app.icon | relative_url }}" width="104" height="104" alt="Иконка {{ app.name }}">
+      <div class="app-card-copy"><p class="app-meta">{{ app.platform }}</p><h3>{{ app.name }}</h3><p>{{ app.description }}</p><span class="status">{{ app.status }}</span></div>
+      <span class="open-label">Открыть</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+<section class="contact-band shell" aria-labelledby="contact-title">
+  <div><p class="eyebrow">ПОДДЕРЖКА</p><h2 id="contact-title">Есть вопрос или идея?</h2></div>
+  <a class="button" href="mailto:igorsoloviov77@gmail.com">Написать автору</a>
+</section>

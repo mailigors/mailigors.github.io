@@ -1,3 +1,7 @@
-title: Warehouse Sort
-description: Поддержка игры Warehouse Sort
-theme: jekyll-theme-minimal
+title: Igor Solovev Apps
+description: Игры и приложения Игоря Соловьёва
+url: https://mailigors.github.io
+lang: ru
+markdown: kramdown
+exclude:
+  - ADDING_APPS.md

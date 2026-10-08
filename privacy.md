@@ -79,4 +79,4 @@ Warehouse Sort сохраняет на вашем устройстве прог�
 
 При изменении функций игры или используемых сервисов мы обновим эту страницу и дату в начале документа. Актуальная версия доступна по адресу [mailigors.github.io/privacy.html](https://mailigors.github.io/privacy.html).
 
-[Вернуться на страницу поддержки](https://mailigors.github.io/).
+[Вернуться на страницу Warehouse Sort](https://mailigors.github.io/warehouse-sort/).

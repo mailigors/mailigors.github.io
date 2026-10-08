@@ -1,0 +1,6 @@
+- name: Warehouse Sort
+  path: /warehouse-sort/
+  platform: iPhone · iOS 17+
+  status: Готовится к выпуску
+  icon: /app-icon.png
+  description: Логическая игра о сортировке товаров, сборке заказов и развитии склада.
