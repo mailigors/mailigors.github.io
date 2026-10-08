@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Политика конфиденциальности Warehouse Sort
-permalink: /privacy.html
+permalink: /warehouse-sort/privacy/
 ---
 
 # Warehouse Sort — политика конфиденциальности
-
-> Политика относится к игре Warehouse Sort. Её основной адрес: [mailigors.github.io/warehouse-sort/privacy/](https://mailigors.github.io/warehouse-sort/privacy/). Эта копия сохранена, чтобы ранее опубликованные ссылки продолжали работать.
 
 **Дата обновления: 7 октября 2026 года**
 
