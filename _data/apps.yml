@@ -4,3 +4,9 @@
   status: Готовится к выпуску
   icon: /app-icon.png
   description: Логическая игра о сортировке товаров, сборке заказов и развитии склада.
+- name: Война Слов
+  path: /war-of-words/
+  platform: iPhone и iPad · iOS 17+
+  status: Готовится к выпуску
+  icon: /assets/icons/war-of-words.png
+  description: Составляйте слова, занимайте бонусные клетки и соревнуйтесь с компьютером или друзьями.
